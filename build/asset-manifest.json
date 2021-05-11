@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Franciscom91/Pin_landing_pagestatic/css/main.c0a2f38c.chunk.css",
-    "main.js": "/Franciscom91/Pin_landing_pagestatic/js/main.73fd646d.chunk.js",
-    "main.js.map": "/Franciscom91/Pin_landing_pagestatic/js/main.73fd646d.chunk.js.map",
-    "runtime-main.js": "/Franciscom91/Pin_landing_pagestatic/js/runtime-main.2ac51bf0.js",
-    "runtime-main.js.map": "/Franciscom91/Pin_landing_pagestatic/js/runtime-main.2ac51bf0.js.map",
-    "static/js/2.71cd2f3f.chunk.js": "/Franciscom91/Pin_landing_pagestatic/js/2.71cd2f3f.chunk.js",
-    "static/js/2.71cd2f3f.chunk.js.map": "/Franciscom91/Pin_landing_pagestatic/js/2.71cd2f3f.chunk.js.map",
-    "index.html": "/Franciscom91/Pin_landing_pageindex.html",
-    "static/css/main.c0a2f38c.chunk.css.map": "/Franciscom91/Pin_landing_pagestatic/css/main.c0a2f38c.chunk.css.map",
-    "static/js/2.71cd2f3f.chunk.js.LICENSE.txt": "/Franciscom91/Pin_landing_pagestatic/js/2.71cd2f3f.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/Franciscom91/Pin_landing_pagestatic/media/section4-image.e5a780eb.png",
-    "static/media/contact-image.c0140ae6.png": "/Franciscom91/Pin_landing_pagestatic/media/contact-image.c0140ae6.png",
-    "static/media/footer-logo.74a2a6df.svg": "/Franciscom91/Pin_landing_pagestatic/media/footer-logo.74a2a6df.svg",
-    "static/media/slider-1.bf7393dd.png": "/Franciscom91/Pin_landing_pagestatic/media/slider-1.bf7393dd.png",
-    "static/media/top-logo.cf659327.svg": "/Franciscom91/Pin_landing_pagestatic/media/top-logo.cf659327.svg"
+    "main.css": "/static/css/main.b5cc7773.chunk.css",
+    "main.js": "/static/js/main.29e14924.chunk.js",
+    "main.js.map": "/static/js/main.29e14924.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6cdd0a86.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6cdd0a86.js.map",
+    "static/js/2.71cd2f3f.chunk.js": "/static/js/2.71cd2f3f.chunk.js",
+    "static/js/2.71cd2f3f.chunk.js.map": "/static/js/2.71cd2f3f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b5cc7773.chunk.css.map": "/static/css/main.b5cc7773.chunk.css.map",
+    "static/js/2.71cd2f3f.chunk.js.LICENSE.txt": "/static/js/2.71cd2f3f.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/section4-image.e5a780eb.png",
+    "static/media/contact-image.c0140ae6.png": "/static/media/contact-image.c0140ae6.png",
+    "static/media/footer-logo.74a2a6df.svg": "/static/media/footer-logo.74a2a6df.svg",
+    "static/media/slider-1.bf7393dd.png": "/static/media/slider-1.bf7393dd.png",
+    "static/media/top-logo.cf659327.svg": "/static/media/top-logo.cf659327.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2ac51bf0.js",
+    "static/js/runtime-main.6cdd0a86.js",
     "static/js/2.71cd2f3f.chunk.js",
-    "static/css/main.c0a2f38c.chunk.css",
-    "static/js/main.73fd646d.chunk.js"
+    "static/css/main.b5cc7773.chunk.css",
+    "static/js/main.29e14924.chunk.js"
   ]
 }
