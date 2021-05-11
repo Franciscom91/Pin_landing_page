@@ -1,0 +1,98 @@
+.products {
+    height: 768px;
+    width: 100%;
+    background: linear-gradient(90deg, #f2f4f1 75%, #dce1da 25%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .products-content {
+        background-image: url('../../assets/img/section3-image.png');
+        width: 966px;
+        height: 552px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+        .products-card{
+            height: 304px;
+            width: 471px;
+            background-color: #E0752F;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+
+            .carousel-item {
+                color: #ffff;
+                padding: 50px;
+
+                p{
+                    font-family: Roboto;
+                    font-size: 16px;
+                    padding-top: 19px;
+                }
+
+                h3{
+                    font-family: Poppins;
+                    font-size: 16px;
+                    margin-bottom: -5px;
+                }
+
+                h2{
+                    font-family: Roboto;
+                    font-size: 36px;
+                }
+            }
+
+            .carousel-indicators {
+                background-color: none;
+            
+                li {
+                    width: 0px;
+                    height: 0px;
+            
+                    &.active {
+                        background-color: none;
+                    }
+                }
+            }
+
+            .carousel-control-prev {
+                justify-content: flex-end;
+                align-items: flex-end;
+                left: 350px;
+                background-image: url(../../assets/img/arrow-left.svg);
+                background-repeat: no-repeat;
+                background-position:bottom;
+                width: 25px;
+                height: 25x;
+                opacity: 1;
+                margin-bottom: 30px;
+                .carousel-control-prev-icon{
+                    opacity: 0;
+                }
+                
+
+       
+            }
+            .carousel-control-next {
+                justify-content: flex-end;
+                align-items: flex-end;
+               right: 10px;
+                background-image: url(../../assets/img/arrow-right.svg);
+                background-repeat: no-repeat;
+                width: 25px;
+                height: 25x;
+                opacity: 1;
+                background-position: bottom;
+                margin-bottom: 30px;
+                margin-right: 49px;
+                .carousel-control-next-icon{
+                    opacity: 0;
+                }
+            }
+            
+        }
+    }
+}
