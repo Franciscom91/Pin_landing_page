@@ -39,66 +39,69 @@ const Contact = () => {
     console.log(formData)
 
     return (
-        <section className="contact">
-            <Container>
-                <Row>
-                    <Col md={12} lg={5}>
-                        <h3>Get in touch<br></br>
-                        <span>We are hiring!</span></h3>
-                        <Form noValidate validated={validated} onSubmit={handleSubmit}>
-                            <Form.Group>
-                                <Form.Control
-                                onChange={handleOnChange}
-                                required
-                                type='text'
-                                placeholder='Name'
-                                name='name'
-                                />
-                            </Form.Group>
+        <div className="container-fluid">
+            <section className="contact">
+                <Container>
+                    <Row>
+                        <Col md={12} lg={5}>
+                            <h3>Get in touch<br></br>
+                            <span>We are hiring!</span></h3>
+                            <Form noValidate validated={validated} onSubmit={handleSubmit}>
+                                <Form.Group>
+                                    <Form.Control
+                                    onChange={handleOnChange}
+                                    required
+                                    type='text'
+                                    placeholder='Name'
+                                    name='name'
+                                    />
+                                </Form.Group>
 
-                            <Form.Group >
-                                <Form.Control
-                                onChange={handleOnChange}
-                                required
-                                name='email'
-                                type='email'
-                                placeholder='Email'
-                                />
-                            </Form.Group>
+                                <Form.Group >
+                                    <Form.Control
+                                    onChange={handleOnChange}
+                                    required
+                                    name='email'
+                                    type='email'
+                                    placeholder='Email'
+                                    />
+                                </Form.Group>
 
-                            <Form.Group >
-                                <Form.Control
-                                onChange={handleOnChange}
-                                required
-                                name='phone'
-                                type='tel'
-                                placeholder='Phone'
-                                />
-                            </Form.Group>
+                                <Form.Group >
+                                    <Form.Control
+                                    onChange={handleOnChange}
+                                    required
+                                    name='phone'
+                                    type='tel'
+                                    placeholder='Phone'
+                                    />
+                                </Form.Group>
 
-                            <Form.Group controlId='formBasicTextArea'>
-                                <Form.Control
-                                onChange={handleOnChange}
-                                required
-                                name='message'
-                                as='textarea'
-                                rows={3}
-                                placeholder='Message'
-                                />
-                                <Form.Control.Feedback type='invalid'>
-                                Por favor ingrese un mensaje
-                                </Form.Control.Feedback>
-                            </Form.Group>
+                                <Form.Group controlId='formBasicTextArea'>
+                                    <Form.Control
+                                    onChange={handleOnChange}
+                                    required
+                                    name='message'
+                                    as='textarea'
+                                    rows={3}
+                                    placeholder='Message'
+                                    />
+                                    <Form.Control.Feedback type='invalid'>
+                                    Por favor ingrese un mensaje
+                                    </Form.Control.Feedback>
+                                </Form.Group>
 
-                            <Button variant='primary' type='submit'>Send</Button>
-                        </Form>
-                    </Col>
-                    <Col md={12} lg={5}>
-                        <img src={contactImage} alt='Contact' className='contactImage' />
-                    </Col>
-                </Row>
-            </Container>
-        </section>
+                                <Button variant='primary' type='submit'>Send</Button>
+                            </Form>
+                        </Col>
+                        <Col md={12} lg={5}>
+                            <img src={contactImage} alt='Contact' className='contactImage' />
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
+        </div>
+        
     )
 }
 
