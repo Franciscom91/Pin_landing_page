@@ -11,21 +11,23 @@ const Contact = () => {
         e.preventDefault()
         console.log('Se envió')
         const form = e.currentTarget;
+        console.log(form.checkValidity())
 
         if (form.checkValidity()) {
             console.log(formData)
-            console.log('Se envió correctamente')
+            console.log('Validado correctamente')
             let responseData = await sendEmail(formData)
             console.log(responseData.data)
             form.reset()
         } else {
-            console.log('Error al enviar, verifique los datos')
+            console.log('Por favor verifique los datos')
         }
     }
 
     const handleOnChange = (e) => {
         console.log(e.target.name)
         console.log(e.target.value)
+
         setFormData((prevState) => {
             return {
                 ...prevState,
@@ -33,6 +35,8 @@ const Contact = () => {
             }
         })
     }
+
+    console.log(formData)
 
     return (
         <section className="contact">
