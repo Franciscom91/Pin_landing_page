@@ -6,10 +6,10 @@
     justify-content: center;
 
     .about-content {
-        height: 384px;
+        height: 384px;          
         width: 100%;
-        padding-left: 299px;
-        padding-right: 299px;
+        padding-left: 25%;
+        padding-right: 25%;
         border-left: 32px solid #E0752F;
         display: flex;
         flex-direction: column;
@@ -18,14 +18,14 @@
 
         .h2{
             font-size: 39px;
-
         }
         .span{
             color: #E0752F;
         }
 
-        .p{
+        .about-content-p {
             font-size: 16px;
+            overflow-y: scroll;
         }
 
     }
