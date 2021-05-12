@@ -1,0 +1,28 @@
+.servicesGeneral{
+    height: 768px;
+    width: 100%;
+
+    background-image: url('../../assets/img/section4-image.png');
+    background-position: right;
+    background-repeat: no-repeat;
+
+    .Acordeon{
+        width: 669px;
+        height: 768px;
+        padding-left: 101px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .cart{
+
+            .CardBody{
+                padding: 39px 37px 40px 37px;
+            }
+            
+        }
+
+    }
+
+}
+
