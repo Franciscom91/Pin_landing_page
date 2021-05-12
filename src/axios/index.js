@@ -1,13 +1,13 @@
 import axios from 'axios'
 
 const instance = axios.create({
-    baseURL: 'https://backlanding.herokuapp.com/api/'
+    baseURL: 'https://backlanding.herokuapp.com/'
 })
 
 const sendEmail = async (data) => {
     const response = await instance({
         method: 'post',
-        url: 'email',
+        url: 'contact',
         data: data
     })
     return response 
